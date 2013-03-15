@@ -4,13 +4,20 @@
 
 This is just a fork of it with a fix/tweak or two.
 
-### Info from AUR
+### Info from AUR as of 03/18/13
 
 Description:  A simple dmenu-based file manager.
+
 Upstream URL:   http://wintervenom.mine.nu [non-working link as of 03/18/13]
+
 Category:   x11
+
 License:  GPL
+
 Submitter:  Wintervenom
+
 Maintainer:   Wintervenom
+
 First Submitted:  2009-03-03 10:11
+
 Last Updated:   2009-03-03 21:37
