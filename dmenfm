@@ -58,9 +58,9 @@ function setmenu {
 }
 
 if [ -z "$XDG_CONFIG_HOME" ]; then
-    xdg_config_home = "$HOME/.config"
+    xdg_config_home="$HOME/.config"
 else
-    xdg_config_home = $XDG_CONFIG_HOME
+    xdg_config_home=$XDG_CONFIG_HOME
 fi
 
 file=1
