@@ -47,7 +47,7 @@ dmenu_fg='$dmenu_fg'
 dmenu_sbg='$dmenu_sbg'
 dmenu_sfg='$dmenu_sfg'
 editor=\"$editor\"
-executor='exo'
+executor=\"$executor\"
 filemanager=\"$filemanager\"
 last_dir=\"$(pwd)\"
 " > "$config"
@@ -229,8 +229,8 @@ About"; ls -B "$plugins_dir/preferences") | $menu -p "Preferences")
                     ;;
                     *'Executor')
                         opt=$(echo -e "$executor\n[Default]" | $menu -p "Executor:")
-                        [[ "$opt" == '[Default]' ]] && opt='exo'
-                        [ "$opt" ] && editor="$opt"
+                        [[ "$opt" == '[Default]' ]] && opt='exo-open'
+                        [ "$opt" ] && executor="$opt"
                     ;;
                     *'Editor')
                         opt=$(echo -e "$editor\n[Default]" | $menu -p "Editor:")
